@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="#" ><img src="logo.jpg" alt="" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="bi bi-x-lg" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">AboutUs</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <i class="bi bi-list" onclick="showMenu()"></i>
+        </nav>
+    </header>
+
+    <!-- Launch Box -->
+    <div class="launch-box">
+        <h1>Here is B&S Education,Only Facts Are Taught Here...</h1>
+        
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>
+             Sint a consequatur quas delectus placeat tempora commodi aliquid ab culpa. <br>
+             Nam aut error, in inventore non maxime a excepturi quos illum!</p>
+
+             <a href="#" class="hero-btn">Contact Us For More</a>
+    </div>
+
+    <!-- Scripts -->
+
+    <script>
+
+        var navLinksObject = document.getElementById('navLinks')
+
+        function hideMenu(){
+            navLinksObject.style.right="-200"
+        }
+
+        function showMenu(){
+            navLinksObject.style.right="0"
+        }
+
+    </script>
+
+    <!-- courses -->
+    <section class="course">
+        <h1>We offer different options for you...</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dicta quasi exercitationem quam suscipit aliquam,
+                </p>
+
+                <div class="row">
+                    <div class="course-col">
+                        <h3>Beginner</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Accusantium dolore sint nam ducimus magnam aspernatur reprehenderit ullam cum quam totam laudantium,
+                             similique consequuntur laboriosam quidem voluptas ex neque? Iusto, delectus!</p>    
+                    </div>
+
+                    <div class="course-col">
+                        <h3>İntermediate</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Accusantium dolore sint nam ducimus magnam aspernatur reprehenderit ullam cum quam totam laudantium,
+                             similique consequuntur laboriosam quidem voluptas ex neque? Iusto, delectus!</p>    
+                    </div>
+
+                    <div class="course-col">
+                        <h3>Advanced</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Accusantium dolore sint nam ducimus magnam aspernatur reprehenderit ullam cum quam totam laudantium,
+                             similique consequuntur laboriosam quidem voluptas ex neque? Iusto, delectus!</p>    
+                    </div>
+                </div>
+    </section>
+
+    <!-- campus -->
+
+    <section class="campus">
+        <h1>Our Campuses</h1>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Sit atque totam provident dicta voluptatum assumenda earum.
+             Facere dignissimos tempora perferendis quia veritatis autem animi.
+             Impedit placeat nisi libero nihil consequatur.</P>
+          
+             <div class="row">
+                <div class="campus-col">
+                <img src="london.jpg" alt="">
+                <div class="layer">
+                    <h3>LONDON UK</h3>
+                </div>
+             </div>
+
+             <div class="campus-col">
+                <img src="london.jpg" alt="">
+                <div class="layer">
+                    <h3>MAASACHUSETTS USA</h3>
+                </div>
+            </div>
+
+                <div class="campus-col">
+                    <img src="london.jpg" alt="">
+                    <div class="layer">
+                        <h3>OXFORD CITY UK</h3>
+                    </div>
+                </div>            
+             </div>     
+    </section>
+
+    <!-- Facilities -->
+
+    <section class="facilities">
+        <h1>Facilities</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+        </p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="Harvard-University.jpg" alt="">
+                <h3>Harvard University</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                </p>
+            </div>
+            <div class="facilities-col">
+                <img src="cambridge.jpg" alt="">
+                <h3>Cambridge University</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                </p>
+            </div>
+            <div class="facilities-col">
+                <img src="Oxford.webp" alt="">
+                <h3>Oxford University</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- testemonials -->
+    <section class="testemonials">
+    <h1>Comments</h1>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+    </p>
+    <div class="row">
+        <div class="testemonials-col">
+            <img src="avatar-1.png" alt="">
+        <div>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+        </p>
+        <h2>Clara Toy</h2>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star"></i>
+
+    </div>
+</div>
+
+      <div class="testemonials-col">
+         <img src="avatar-2.png" alt="">
+      <div>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+      </p>
+      <h2>Clara Toy</h2>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star-fill"></i>
+      <i class="bi bi-star"></i>
+
+  </div>
+</div>
+
+
+    <div class="testemonials-col">
+      <img src="avatar-3.png" alt="">
+     <div>
+     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+     </p>
+    <h2>Clara Toy</h2>
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star"></i>
+
+    </div>
+  </div>
+</div>
+</section>
+
+<!--Urgent Action-->
+
+<div class="ua">
+    <h1>What are you waiting for? </br>   Contact us now </h1>
+    <a href="#" class="hero-btn">We are a click away!</a>
+</div>
+
+
+<!-- Footer -->
+<footer>
+    <h1>Last Section</h1>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+    </p>
+    <div class="icons">
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-twitter"></i>
+        <i class="bi bi-linkedin"></i>
+    </div>
+    <p> We are actually big  <i class="bi bi-heart-fill"></i>B&S family</p>
+</footer>
+
+
+
+
+    
+</body>
+</html>
